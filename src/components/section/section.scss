@@ -1,5 +1,9 @@
 .section {
-
+    
+    width: 1860px;
+    height: 764px;
+   display: block;
+   margin: 0 auto;
     &_box {
         width: 1320px;
         display: block;
@@ -61,12 +65,12 @@
         font-size: 18px;
     }
 
-    &_input {
+    &__inputs {
         background-image: url(/public/3.png) ;
-        width: 1860px;
-        height: 764px;
+        
         border-radius: 36px;
-
+        display: flex;
+        justify-content: center;
     }
 }
 // .arenda{

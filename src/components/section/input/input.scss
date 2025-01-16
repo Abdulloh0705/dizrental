@@ -1,10 +1,10 @@
 .input {
+    display: flex;
+    justify-content: center;
     &_box {
         width: 1320px;
-        display: block;
-        margin: 0 auto;
-        align-items: center;
-
+       height: 647px;
+        
     }
 
     &_theme {
@@ -14,7 +14,7 @@
     }
 
     &_theme {
-        margin: 122px 0px 70px 0px;
+        margin: 85px 0px 70px 0px;
         font-weight: 700;
         font-size: 48px;
         color: #fff;

@@ -2,7 +2,8 @@ import React from 'react'
 import Nav from './components/nav/Nav'
 import Header from './components/header/Header'
 import Aders from './components/adres/Aders'
-import Section from './section/Section'
+import Section from './components/section/Section'
+
 
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
       <Nav/>
       <Header/>
       <Aders/>
-      <Section/>
+     <Section/>
     </>
   )
 }
