@@ -1,0 +1,108 @@
+.nav {
+    width: 100%;
+    height: fit-content;
+    background: rgba(24, 24, 24, 1);
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo-box {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+    }
+
+    &__logo-list {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+    }
+
+    &__logo-link {
+        font-size: 15px;
+        color: rgba(166, 166, 166, 1); // Bosilmagan holat
+        padding: 10px 16px;
+        background: rgb(41, 41, 41);
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 7px;
+        border: 1px solid transparent;
+        width: 100px;
+        border-radius: 8px;
+
+        &.active {
+            color: #fff;
+        }
+
+        img {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        align-content: inherit;
+        column-gap: 40px;
+    }
+
+    &__box-extra {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &__link {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    &__icon-box {
+        display: flex;
+        column-gap: 10px;
+    }
+
+}
+
+.call {
+    margin: 0px 20px;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    &_link {
+
+        color: #c4c4c4;
+    }
+}
+.teg_link{
+    color: #c2c1c1;
+    border: #8f8f8f 2px solid;
+    padding: 12px 20px; 
+    border-radius: 10px;
+}
+.icon_call,
+.icon_teg {
+    
+    background-color: #181818;
+    border: none;
+    color: #8f8f8f;
+    font-size:20px;
+}
+.info_prof{
+    display: flex;
+    column-gap: 12px;
+}
+.info,
+.prof{
+    color: #fff;
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 10px;
+}

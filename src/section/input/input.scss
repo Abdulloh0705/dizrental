@@ -1,0 +1,65 @@
+.input {
+    &_box {
+        width: 1320px;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+
+    &_theme {
+        font-weight: 700;
+        font-size: 48px;
+        color: #fff;
+    }
+
+    &_theme {
+        margin: 122px 0px 70px 0px;
+        font-weight: 700;
+        font-size: 48px;
+        color: #fff;
+    }
+
+}
+
+.title-input {
+    display: flex;
+    gap: 136px;
+}
+
+.text1 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+    color: #fff;
+    width: 760px;
+    height: 240px;
+}
+
+.text2 {
+    color: #c9c9c9;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    width: 760px;
+    height: 90px;
+
+}
+
+.name {
+    padding: 28px 30px;
+    border-radius: 10px;
+    width: 402px;
+    height:76px;
+    margin-bottom: 14px;
+}
+
+.kitob {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 28px 149px;
+    background-color: rgba(49, 49, 49, 0);
+    opacity: 0.5;
+    border-radius: 10px;
+
+}
