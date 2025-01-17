@@ -1,0 +1,45 @@
+.arenda {
+    &_box {
+        display: block;
+        margin: 0 auto;
+    }
+   
+    &_cards {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+  
+}
+.title{
+    fw
+}
+.card_esse{
+    height: 194px;
+    width: 648px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card_text1{
+    width: 310px;
+    height: fit-content;
+    color: #6d6d6d;
+    margin-top: 22px;
+}
+.card_title1{
+    width: 243px;
+    height: fit-content;
+}
+.card_text2{
+    width: 381px;
+    height: fit-content;
+    color: #6d6d6d;
+    margin-top: 22px;
+}
+.card_title2{
+    width: 402px;
+    height: fit-content;
+}
