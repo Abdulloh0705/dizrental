@@ -3,6 +3,8 @@ import "./section.scss";
 import Section_product from "./product/Section_product";
 import Input from "./input/Input";
 import Arenda from "./arenda/Arenda";
+import { FaCarSide } from "react-icons/fa";
+import Main from "../main/Main";
 const Section = () => {
   return (
     <>
@@ -15,7 +17,7 @@ const Section = () => {
             </div>
             <div className="section_btns">
               <div className="section_btns-filtr">
-                <img className="filtr_img1" src="/public/filtr1.png" alt="" />
+              <FaCarSide />
                 <p className="ection_btns-title">Внедорожники</p>
               </div>
               <div className="section_btns-filtr">
@@ -57,9 +59,12 @@ const Section = () => {
           </div>
           <div className="arenda">
             <Arenda />
+            
           </div>
         </div>
+        <Main/>
       </div>
+    
     </>
   );
 };

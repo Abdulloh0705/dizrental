@@ -1,0 +1,31 @@
+.skitka {
+    background-image: url(/public/6.png);
+    width: 1861px;
+    height: 820px;
+
+    &_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &_esse {
+        width: 648px;
+        height: 580px;
+        display: block;
+        column-gap: 36px;
+    }
+
+    &_title {
+        color: #fff;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    &_text1,
+    &_text2{
+        color: #fff;
+     margin-top: 36px;
+    //  width: ;
+    }
+}

@@ -3,43 +3,134 @@
         display: block;
         margin: 0 auto;
     }
-   
+
     &_cards {
         display: flex;
         justify-content: center;
         gap: 24px;
+        margin: 60px 0px 120px 0px;
     }
-  
+
+    &_title {
+        width: 1045px;
+        height: 124px;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        right: 140px;
+    }
 }
-.title{
-    fw
-}
-.card_esse{
-    height: 194px;
-    width: 648px;
+
+.card_1,
+.card_2 {
     background-color: #ffffff;
     border-radius: 0px 0px 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 648px;
+    height: 584px;
+
+
 }
-.card_text1{
+
+.title {
+    margin-top: 120px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.card_esse {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.card_text1 {
     width: 310px;
     height: fit-content;
     color: #6d6d6d;
     margin-top: 22px;
 }
-.card_title1{
+
+.card_title1 {
     width: 243px;
     height: fit-content;
 }
-.card_text2{
+
+.card_text2 {
     width: 381px;
     height: fit-content;
     color: #6d6d6d;
     margin-top: 22px;
 }
-.card_title2{
+
+.card_title2 {
     width: 402px;
     height: fit-content;
+}
+
+.rule_box {
+    width: 1320px;
+    height: 456px;
+
+}
+
+.rule_title {
+    display: flex;
+    justify-content: center;
+    // display: block;
+    // margin: 0 auto;
+    width: 1860px;
+
+}
+
+.rule_title-title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    width: 599px;
+}
+
+.rule_card1 {
+    width: 424px;
+    height: 272px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.rule_card1 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rule_card-text {
+    width: 234px;
+    height: 104px;
+    color: #6d6d6d;
+    margin-top: 10px;
+}
+.rule_cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 60px;
+    width: 1800px;;
+}
+.rule_card-title {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.rule_card-img{
+    position: relative;
+
+}
+.rule_img-title{
+    position: absolute;
+    top: -26px;
+    border-radius: 50%;
+    background: linear-gradient(67.38deg, #9F7437 9.19%, #E3D293 92.03%);
+    padding: 5px 10px;
+    color: #fff;
+    right: -15px;
 }
