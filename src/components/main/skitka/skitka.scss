@@ -7,7 +7,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 50px;
+        gap: 136px;
+        height: 820px;
     }
 
     &_esse {
@@ -22,10 +23,50 @@
         font-size: 48px;
         font-weight: 700;
     }
-    &_text1,
-    &_text2{
+
+    &_text1 {
         color: #fff;
-     margin-top: 36px;
-    //  width: ;
+        margin-top: 36px;
+        width: 648px;
+        height: 342px;
+        font-size: 28px;
+        font-weight: 600;
+
     }
+
+    &_text2 {
+        color: #9c9c9c;
+        margin-top: 36px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    &_card {
+        width: 536px;
+        height: 580px;
+
+    }
+
+    &_card-text {
+        background-color: #fff;
+        border-radius: 0px 0px 20px 20px;
+        height: 174px;
+        width: 536px;
+        display: grid;
+        align-items: center;
+        display: grid;
+        padding-left: 40px;
+        align-content: center;
+
+    }
+
+
+}
+
+.card_text {
+    width: 394px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+
 }
