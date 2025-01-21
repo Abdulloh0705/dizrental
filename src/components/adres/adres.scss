@@ -25,45 +25,51 @@
         padding-bottom: 30px;
         font-weight: 800;
     }
-}
-
-.chek_btn {
-    background: linear-gradient(67.38deg, #9F7437 9.19%, #E3D293 92.03%);
-    padding: 28px 34px;
-    border-radius: 20px;
-    color: #fff;
-}
 
 
+    .chek_btn {
+        background: linear-gradient(67.38deg, #9F7437 9.19%, #E3D293 92.03%);
+        padding: 28px 34px;
+        border-radius: 20px;
+        color: #fff;
+    }
+    
+    
+    
+    input {
+        border: none;
+        background-color: #f5f5f5;
+    }
+    .input_zavershena{
+        border: none;
+        outline: none;
+        width: 500px;
+    }
+    .nachalo,
+    .zavershena {
+        background-color: #f5f5f5;
+        padding: 30px 70px 30px 30px;
+        border-radius: 10px;
+        width: 242px;
+        height: 76px;
+        display: flex;
+        column-gap: 16px
+    }
+    
+    .cheks_1 {
+        display: flex;
+        gap: 26px;
+    }
+    
+    .cheks_2 {
+        display: flex;
+        gap: 26px;
+        margin-top: 14px;
+    }
+    
+    .cheks {
+        display: flex;
+        column-gap: 14px;
+    }
 
-input {
-    border: none;
-    background-color: #f5f5f5;
-}
-
-.nachalo,
-.zavershena {
-    background-color: #f5f5f5;
-    padding: 30px 70px 30px 30px;
-    border-radius: 10px;
-    width: 242px;
-    height: 76px;
-    display: flex;
-    column-gap: 16px
-}
-
-.cheks_1 {
-    display: flex;
-    gap: 26px;
-}
-
-.cheks_2 {
-    display: flex;
-    gap: 26px;
-    margin-top: 14px;
-}
-
-.cheks {
-    display: flex;
-    column-gap: 14px;
 }
