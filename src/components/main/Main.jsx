@@ -42,7 +42,17 @@ const Main = () => {
             <div className="zakazat_card_box">
               <div className="zakazat_card1">
                 <div className="card_small">
-                  <img src="/public/14.png" alt="" className="small_img" />
+                <div className="dizrental_card">
+                <img src="/public/smallImg1.png" alt="" className="dizrenatal_img" />
+               <div className="dizrental_text_card">
+                <h3 className="dizrental_title">
+                Страховка
+                </h3>
+                <p className="dizrental_text">
+                Все наши автомобили застрахованы по ОСАГО И КАСКО
+                </p>
+               </div>
+                </div>
                 </div>
               </div>
             </div>
