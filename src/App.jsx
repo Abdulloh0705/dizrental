@@ -4,6 +4,7 @@ import Header from './components/header/Header'
 import Aders from './components/adres/Aders'
 import Section from './components/section/Section'
 import Main from './components/main/Main'
+import Footer from './components/Footer/Footer'
 
 
 
@@ -14,7 +15,7 @@ const App = () => {
       <Header/>
       <Aders/>
      <Section/>
-    
+   
     </>
   )
 }

@@ -5,6 +5,7 @@ import Input from "./input/Input";
 import Arenda from "./arenda/Arenda";
 import { FaCarSide } from "react-icons/fa";
 import Main from "../main/Main";
+import Footer from "../Footer/Footer";
 const Section = () => {
   return (
     <>
@@ -61,8 +62,10 @@ const Section = () => {
             <Arenda />
             
           </div>
+         
         </div>
         <Main/>
+        <Footer/>
       </div>
     
     </>
