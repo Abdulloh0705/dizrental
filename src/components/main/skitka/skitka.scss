@@ -1,6 +1,5 @@
 .skitka {
-    background-image: url(/public/6.png);
-    width: 1861px;
+    width: 1800px;
     height: 820px;
     margin-top: 120px;
     &_box {
@@ -9,6 +8,8 @@
         align-items: center;
         gap: 136px;
         height: 820px;
+        border-radius: 50px ;
+        background-image: url(/public/6.png);
     }
 
     &_esse {
