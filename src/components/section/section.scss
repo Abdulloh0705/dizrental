@@ -1,9 +1,8 @@
 .section {
-    
     width: 1860px;
-    height: 764px;
-   display: block;
-   margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+
     &_box {
         width: 1320px;
         display: block;
@@ -66,38 +65,40 @@
     }
 
     &__inputs {
-        background-image: url(/public/3.png) ;
-        
+        background-image: url(/public/3.png);
+
         border-radius: 36px;
         display: flex;
         justify-content: center;
     }
+
     .filtr_img1 {
         width: 20px;
         height: 12px;
-    
+
     }
-    
+
     .filtr_img2 {
         width: 36px;
         height: 10px;
     }
-    
+
     .filtr_img3 {
         width: 36px;
         height: 10px;
     }
-    
+
     .filtr_img4 {
         width: 53px;
         height: 10px;
     }
-    
+
     .filtr_img5 {
         width: 33px;
         height: 12px;
     }
 }
+
 // .arenda{
 //     display: block;
 //     margin: 0 auto;

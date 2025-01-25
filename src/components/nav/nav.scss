@@ -4,7 +4,10 @@
     background: rgba(24, 24, 24, 1);
     box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.06);
     padding: 20px;
-
+    top: 0;
+    z-index: 9999;
+position: sticky;
+border-radius: 0px 0px 30px 30px;
     &__box {
         display: flex;
         align-items: center;
@@ -25,7 +28,7 @@
 
     &__logo-link {
         font-size: 15px;
-        color: rgba(166, 166, 166, 1); // Bosilmagan holat
+        color: rgba(166, 166, 166, 1); 
         padding: 10px 16px;
         background: rgb(41, 41, 41);
         font-weight: 500;

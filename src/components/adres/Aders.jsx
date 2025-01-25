@@ -1,12 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './adres.scss'
 import { IoCalendarClearOutline } from 'react-icons/io5'
+import Aos from 'aos';
 const Aders = () => {
+    useEffect(()=>{
+        Aos.init({
+            duration:1200,
+            once: false,
+        })
+    },[]);
+    
     return (
         <>
-            <div className="adres">
+            <div className="adres" data-aos="zoom-in">
                 <div className="container">
-                    <div className="adres_box">
+                    <div className="adres_box" >
                         <h2 className="adres_title">
                             Заказать аренду online
                         </h2>

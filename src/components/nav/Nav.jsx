@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "./nav.scss";
 import { LuPhoneCall } from 'react-icons/lu';
 import { BiLogoTelegram } from 'react-icons/bi';
 import { FaCar } from 'react-icons/fa';
 import { CgProfile } from 'react-icons/cg';
 import { Link } from 'react-router';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Nav = () => {
     const [activeLocation, setActiveLocation] = useState('Москва');
@@ -14,12 +15,18 @@ const Nav = () => {
         event.preventDefault();
         setActiveLocation(location);
     };
+    useEffect(() => {
+        AOS.init({
+          duration: 1300, // Animatsiya davomiyligi (ms)
+          once: true,     // Faqat bir marta animatsiya qilish
+        });
+      }, []);
 
     return (
         <div className='nav'>
             <div className="container">
                 <div className="nav__box">
-                    <div className="nav__logo-box">
+                    <div className="nav__logo-box" data-aos="fade-right">
                         <a href="#" className="nav__logo"> <img src="1.svg" alt="logo" /> </a>
                         <ul className="nav__logo-list">
                             {['Москва', 'Дубай'].map((location) => (
@@ -31,14 +38,14 @@ const Nav = () => {
                             ))}
                         </ul>
                     </div>
-                    <ul className="nav__list">
+                    <ul className="nav__list" data-aos="flip-up">
                         <li className="nav__item"><a href="#Подобрать авто" className="nav__link">Подобрать авто</a></li>
                         <li className="nav__item"><a href="#Условия" className="nav__link">Условия</a></li>
                         <li className="nav__item"><a href="#Цены" className="nav__link">Цены</a></li>
                         <li className="nav__item"><a href="#О нас" className="nav__link">О нас</a></li>
                         <li className="nav__item"><a href="#Контакты" className="nav__link">Контакты</a></li>
                     </ul>
-                    <div className="nav__box-extra">
+                    <div className="nav__box-extra" data-aos="fade-left">
                         <div className="nav__icon-box">
                             <a href="#" className="icon_call">
                                 <LuPhoneCall />
