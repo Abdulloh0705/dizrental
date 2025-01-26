@@ -13,7 +13,7 @@ const Arenda = () => {
             </div>
             <div className="arenda_cards">
 
-              <div className="card_1">
+              <div className="card_1" data-aos="fade-right">
 
                 <div className="card_img">
                   <img src="/public/4.png" alt="" className="card_img1" />
@@ -27,7 +27,7 @@ const Arenda = () => {
                   </p>
                 </div>
               </div>
-              <div className="card_2">
+              <div className="card_2" data-aos="fade-left">
                 <div className="card_img">
                   <img src="/public/5.png" alt="" className="card_img1" />
                 </div>
@@ -48,7 +48,7 @@ const Arenda = () => {
                   3 шага, чтобы арендовать авто
                 </h2>
               </div>
-              <div className="rule_cards">
+              <div className="rule_cards"  data-aos="zoom-in-up">
                 <div className="rule_card1">
                   <div className="rule_card-img">
                     <img src="/public/rule1.png" alt="" className="rule_img" />
@@ -87,7 +87,7 @@ const Arenda = () => {
                     </p>
                   </div>
                 </div>
-                <div className="rule_card1">
+                <div className="rule_card1" >
                   <div className="rule_card-img">
                     <img src="/public/rule3.png" alt="" className="rule_img" />
                     <p className="rule_img-title">

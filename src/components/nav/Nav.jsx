@@ -17,8 +17,8 @@ const Nav = () => {
     };
     useEffect(() => {
         AOS.init({
-          duration: 1300, // Animatsiya davomiyligi (ms)
-          once: true,     // Faqat bir marta animatsiya qilish
+          duration: 1500,
+          once: true,    
         });
       }, []);
 

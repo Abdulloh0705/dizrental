@@ -16,20 +16,20 @@ const Main = () => {
               <h2 className="main_box-title">
                 Наши услуги
               </h2>
-              <div className="main_box-cards">
-                <div className="main_card-1">
+              <div className="main_box-cards" >
+                <div className="main_card-1" data-aos="flip-down">
                   <img src="/public/8.png" alt="" />
                   <h2 className="card_title1">
                     Доставляем авто в любую точку Москвы
                   </h2>
                 </div>
-                <div className="main_card-1">
+                <div className="main_card-1" data-aos="flip-down">
                   <img src="/public/9.png" alt="" />
                   <h2 className="card_title2">
                     Аренда авто с личным водителем
                   </h2>
                 </div>
-                <div className="main_card-1">
+                <div className="main_card-1" data-aos="flip-down">
                   <img src="/public/10.png" alt="" />
                   <h2 className="card_title3">
                     Водитель на подмену

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./section.scss";
 import Section_product from "./product/Section_product";
 import Input from "./input/Input";
@@ -6,7 +6,16 @@ import Arenda from "./arenda/Arenda";
 import { FaCarSide } from "react-icons/fa";
 import Main from "../main/Main";
 import Footer from "../Footer/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Section = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      once: true,    
+    });
+  }, []);
+
   return (
     <>
       <div className="section">
@@ -16,7 +25,7 @@ const Section = () => {
               <h2 className="section_theme-title">Наш автопарк</h2>
               <button className="section_theme-btn">Смотреть все</button>
             </div>
-            <div className="section_btns">
+            <div className="section_btns" data-aos="fade-right">
               <div className="section_btns-filtr">
               <FaCarSide />
                 <p className="ection_btns-title">Внедорожники</p>
@@ -41,7 +50,7 @@ const Section = () => {
             <div className="section_cards">
               <Section_product />
             </div>
-            <div className="section_info">
+            <div className="section_info" data-aos="zoom-in-up">
               <p className="section_info-text1">
                 Москва известна своими величественными аллеями, роскошными
                 торговыми центрами и впечатляющей архитектурой. В таком

@@ -6,7 +6,7 @@ const Skitka = () => {
             <div className="skitka">
                 <div className="container">
                     <div className="skitka_box">
-                        <div className="skitka_esse">
+                        <div className="skitka_esse"  data-aos="fade-down-right">
                             <h2 className="skitka_title">
                                 Скидки и акции
                             </h2>
@@ -30,7 +30,7 @@ const Skitka = () => {
                                 останутся в памяти надолго.
                             </p>
                         </div>
-                        <div className="skitka_card">
+                        <div className="skitka_card"  data-aos="fade-down-left">
                             <img src="/public/7.png" alt="" />
                             <div className="skitka_card-text">
                                 <h3 className="card_title">

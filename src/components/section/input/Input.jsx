@@ -10,7 +10,7 @@ const Input = () => {
                             Арендовать авто прямо сейчас!
                         </h2>
                         <div className="title-input">
-                            <div className="title_text">
+                            <div className="title_text" data-aos="fade-down-right">
                                 <p className="text1">
                                     Dizrental в Москве предлагает широкий выбор моделей от
                                     ведущих производителей, таких как Mercedes, BMW, Audi .
@@ -27,7 +27,7 @@ const Input = () => {
                                     покупки и обслуживания.
                                 </p>
                             </div>
-                            <div className="inputs">
+                            <div className="inputs" data-aos="fade-down-left">
                                 <input type="your name"
                                 placeholder='your name'
                                 className="name" />

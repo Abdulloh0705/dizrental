@@ -32,12 +32,12 @@ const Main_and = () => {
                   rent from AED 439 ($119) per day.
                 </p>
               </div>
-              <div className="card_img">
+              <div className="card_img" data-aos="flip-left">
                 <img src="/public/12.png" alt="" />
               </div>
             </div>
-            <div className="main_and_card2">
-              <div className="card_img">
+            <div className="main_and_card2" >
+              <div className="card_img" data-aos="flip-right">
                 <img src="/public/13.png" alt="" />
               </div>
               <div className="card_esse">
@@ -64,13 +64,13 @@ const Main_and = () => {
       </div>
       <div className="main_and2">
         <div className="container">
-          <div className="main_and2_box">
-            <img src="/public/brand/1.png" alt="" className="main_and2_brand-img1" />
-            <img src="/public/brand/2.png" alt="" className="main_and2_brand-img2" />
-            <img src="/public/brand/3.png" alt="" className="main_and2_brand-img3" />
-            <img src="/public/brand/4.png" alt="" className="main_and2_brand-img4" />
-            <img src="/public/brand/5.png" alt="" className="main_and2_brand-img5" />
-            <img src="/public/brand/6.png" alt="" className="main_and2_brand-img6" />
+          <div className="main_and2_box" >
+            <img src="/public/brand/1.png" alt="" className="main_and2_brand-img1" data-aos="flip-up" />
+            <img src="/public/brand/2.png" alt="" className="main_and2_brand-img2" data-aos="flip-up" />
+            <img src="/public/brand/3.png" alt="" className="main_and2_brand-img3" data-aos="flip-up" />
+            <img src="/public/brand/4.png" alt="" className="main_and2_brand-img4" data-aos="flip-up" />
+            <img src="/public/brand/5.png" alt="" className="main_and2_brand-img5" data-aos="flip-up" />
+            <img src="/public/brand/6.png" alt="" className="main_and2_brand-img6" data-aos="flip-up" />
           </div>
         </div>
       </div>
