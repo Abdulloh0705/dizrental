@@ -25,7 +25,7 @@ const Aders = () => {
                                     <button className="input_btn">
                                         <IoCalendarClearOutline />
                                     </button>
-                                    <input className="input_nachalo"
+                                    <input className="input_zavershena"
                                         type="text"
                                         placeholder='Начало аренды'
                                     />

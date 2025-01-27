@@ -3,8 +3,8 @@ import '../main_and/mainAnd.scss'
 const Main_and = () => {
   return (
     <>
-      <div className="main_and1">
-        <div className="container">
+      <div className="main_and">
+        <div className="">
           <div className="main_and_box">
             <div className="main_and_card1">
               <div className="card_esse">
@@ -63,7 +63,7 @@ const Main_and = () => {
         </div>
       </div>
       <div className="main_and2">
-        <div className="container">
+        <div className="">
           <div className="main_and2_box" >
             <img src="/public/brand/1.png" alt="" className="main_and2_brand-img1" data-aos="flip-up" />
             <img src="/public/brand/2.png" alt="" className="main_and2_brand-img2" data-aos="flip-up" />
