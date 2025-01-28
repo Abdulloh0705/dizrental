@@ -1,5 +1,6 @@
-.adres {
+@import '../../scss/media.scss';
 
+.adres {
     &_box {
         background-color: #fff;
         border-radius: 20px;
@@ -26,25 +27,24 @@
         font-weight: 800;
     }
 
-
     .chek_btn {
         background: linear-gradient(67.38deg, #9F7437 9.19%, #E3D293 92.03%);
         padding: 28px 34px;
         border-radius: 20px;
         color: #fff;
     }
-    
-    
-    
+
     input {
         border: none;
         background-color: #f5f5f5;
     }
-    .input_zavershena{
+
+    .input_zavershena {
         border: none;
         outline: none;
         width: 500px;
     }
+
     .nachalo,
     .zavershena {
         background-color: #f5f5f5;
@@ -53,23 +53,104 @@
         width: 242px;
         height: 76px;
         display: flex;
-        column-gap: 16px
+        column-gap: 16px;
     }
-    
+
     .cheks_1 {
         display: flex;
         gap: 26px;
     }
-    
+
     .cheks_2 {
         display: flex;
         gap: 26px;
         margin-top: 14px;
     }
-    
+
     .cheks {
         display: flex;
         column-gap: 14px;
     }
+}
 
+/* Media Queries */
+@media (max-width: 1440px) {
+    .adres_box {
+        width: 1200px;
+        padding: 40px 60px;
+    }
+    .input_zavershena {
+        width: 450px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .adres_box {
+        width: 900px;
+        padding: 30px 50px;
+    }
+    .adres_box-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .adres_input {
+        // flex-direction: column;
+        gap: 10px;
+    }
+    .input_zavershena {
+        width: 100%;
+    }
+    .nachalo, .zavershena {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .adres_box {
+        width: 700px;
+        padding: 20px 40px;
+    }
+    .adres_title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .adres_box {
+        width: 100%;
+        padding: 15px 20px;
+    }
+    .adres_box-box {
+        flex-direction: column;
+    }
+    .adres_title {
+        font-size: 18px;
+    }
+    .nachalo, .zavershena {
+        padding: 20px 20px;
+    }
+    .input_zavershena {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .adres_box {
+        padding: 10px 15px;
+    }
+    .chek_btn {
+        padding: 20px 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .adres_title {
+        font-size: 16px;
+    }
+    .chek_btn {
+        padding: 15px 20px;
+    }
+    .nachalo, .zavershena {
+        padding: 15px 15px;
+    }
 }
