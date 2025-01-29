@@ -73,8 +73,6 @@ const Section = () => {
           </div>
          
         </div>
-        <Main/>
-        <Footer/>
       </div>
     
     </>

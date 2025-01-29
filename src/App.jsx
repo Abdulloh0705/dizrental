@@ -15,7 +15,8 @@ const App = () => {
       <Header/>
       <Aders/>
      <Section/>
-   
+     <Main/>
+        <Footer/>
     </>
   )
 }
